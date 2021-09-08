@@ -20,9 +20,9 @@
 | 目标                        | 进度                                                |
 | --------------------------- | --------------------------------------------------- |
 | 🔥 LeetCode 热题 HOT 100     | ![progress](https://progress-bar.dev/5/ "progress") |
-| 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/6/ "progress") |
+| 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/7/ "progress") |
 | 简单 100                    | ![progress](https://progress-bar.dev/2/ "progress") |
-| 中等 100                    | ![progress](https://progress-bar.dev/4/ "progress") |
+| 中等 100                    | ![progress](https://progress-bar.dev/5/ "progress") |
 | 困难 100                    | ![progress](https://progress-bar.dev/1/ "progress") |
 
 
