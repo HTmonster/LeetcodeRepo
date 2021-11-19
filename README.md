@@ -15,9 +15,9 @@
 | 目标                        | 进度                                                |
 | --------------------------- | --------------------------------------------------- |
 | 🔥 LeetCode 热题 HOT 100     | ![progress](https://progress-bar.dev/7/ "progress") |
-| 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/9/ "progress") |
-| 简单 100                    | ![progress](https://progress-bar.dev/3/ "progress") |
-| 中等 100                    | ![progress](https://progress-bar.dev/6/ "progress") |
+| 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/10/ "progress") |
+| 简单 100                    | ![progress](https://progress-bar.dev/4/ "progress") |
+| 中等 100                    | ![progress](https://progress-bar.dev/7/ "progress") |
 | 困难 100                    | ![progress](https://progress-bar.dev/2/ "progress") |
 
 
@@ -41,4 +41,6 @@
 |8. 字符串转换整数|请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）|1.状态机转换法 ![](http://latex.codecogs.com/gif.latex?O(n)\,O(1)) 2.正则表达式法 ![](http://latex.codecogs.com/gif.latex?O(n)\,O(1))||
 |9. 回文数|给你一个整数x, 如果x是一个回文整数，则返回true；否则，返回false|![](http://latex.codecogs.com/gif.latex?O(n)\,O(n))||
 |10. 正则表达式匹配| 给你一个字符串s和字符规律p, 请你实现一个支持'.'和'*'的正则表达式匹配|动态规划法，使用数组存储 ![](http://latex.codecogs.com/gif.latex?O(1)\,O(nm))|空间换时间，记住历史信息|
-|11.盛最多水的容器|11. 给你n个非负整数a1,a2,....an,每个数代表坐标中的一个点(i,ai)。在坐标内画n条直线，垂直线i的两个端点分别为(i,ai)和(i,0)。找出其中的两条线，使他们与x轴共同构成的容器可以容纳最多的水。|双指针法 ![](http://latex.codecogs.com/gif.latex?O(n)\,O(1))||
+|11. 盛最多水的容器|11. 给你n个非负整数a1,a2,....an,每个数代表坐标中的一个点(i,ai)。在坐标内画n条直线，垂直线i的两个端点分别为(i,ai)和(i,0)。找出其中的两条线，使他们与x轴共同构成的容器可以容纳最多的水。|双指针法 ![](http://latex.codecogs.com/gif.latex?O(n)\,O(1))||
+|12. 整数转罗马数字| 给你一个数字，转为罗马数字|模拟法，注意特殊情况4和9 ![](http://latex.codecogs.com/gif.latex?O(1)\,O(1))|由于搭配情况比较少，可以用暴力匹配法，用空间换时间|
+|13. 罗马数字转整数| 给你一个罗马数字，将其转为整数| 注意特殊情况即可![](http://latex.codecogs.com/gif.latex?O(1)\,O(1))||
