@@ -17,7 +17,7 @@
 | 🔥 LeetCode 热题 HOT 100     | ![progress](https://progress-bar.dev/9/ "progress") |
 | 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/12/ "progress") |
 | 简单 100                    | ![progress](https://progress-bar.dev/4/ "progress") |
-| 中等 100                    | ![progress](https://progress-bar.dev/10/ "progress") |
+| 中等 100                    | ![progress](https://progress-bar.dev/11/ "progress") |
 | 困难 100                    | ![progress](https://progress-bar.dev/2/ "progress") |
 
 
@@ -47,3 +47,4 @@
 |15. 三数之和|给你一个数组，找出这个数组中a,b,c三个数满足a+b+c=0 注意不能重复| 先排序，单遍历+双指针 ![](http://latex.codecogs.com/gif.latex?O(n^2)\,O(logn))|双指针为了排除一些已经搭配过的解，注意去重|
 |16. 最接近的三数之和|给你一个数组和目标值。请你从数组中找出三个整数，使它们的和与目标最接近。返回这三个数的和。|同15,先排序,让后单遍历+双指针逼近 ![](http://latex.codecogs.com/gif.latex?O(n^2)\,O(logn)) |优化: 得到target之后直接返回,因为没有更接近的空间了|
 |17. 电话号码的字母组合|给你一个仅包含2-9的字符串，返回所有它能表示的字母组合。给出的数字到字母的映射如下（与电话按键相同）|队列法，取出每个元素添加尾巴再放进去。![](http://latex.codecogs.com/gif.latex?O(3^n*4^m)\,O(m+n))|注意第一个字母|
+|18. 四数之和|给你一个数组和目标值。请找出四个整数，其和为目标值。|同15，设目标为<i,j,k,l>, 1.先排序 2.搭配固定i,j 3.双指针逼近k,l![](http://latex.codecogs.com/gif.latex?O(n^3)\,O(logn))| 注意去重|
