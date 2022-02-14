@@ -1,3 +1,8 @@
+<!--
+ * @Description: 
+ * @Autor: HTmonster
+ * @Date: 2021-08-08 14:56:45
+-->
 ### :city_sunrise:LeetcodeRepo 刷题仓库
 
 > Leetcode的刷题记录仓库，刷的比较慢
@@ -14,10 +19,8 @@
 
 | 目标                        | 进度                                                |
 | --------------------------- | --------------------------------------------------- |
-| 🔥 LeetCode 热题 HOT 100     | ![progress](https://progress-bar.dev/9/ "progress") |
-| 👨‍💻 LeetCode 精选 TOP 面试题 | ![progress](https://progress-bar.dev/12/ "progress") |
 | 简单 100                    | ![progress](https://progress-bar.dev/4/ "progress") |
-| 中等 100                    | ![progress](https://progress-bar.dev/11/ "progress") |
+| 中等 100                    | ![progress](https://progress-bar.dev/12/ "progress") |
 | 困难 100                    | ![progress](https://progress-bar.dev/2/ "progress") |
 
 
@@ -49,3 +52,4 @@
 |17. 电话号码的字母组合|给你一个仅包含2-9的字符串，返回所有它能表示的字母组合。给出的数字到字母的映射如下（与电话按键相同）|队列法，取出每个元素添加尾巴再放进去。![](http://latex.codecogs.com/gif.latex?O(3^n*4^m)\,O(m+n))|注意第一个字母|
 |18. 四数之和|给你一个数组和目标值。请找出四个整数，其和为目标值。|同15，设目标为<i,j,k,l>, 1.先排序 2.搭配固定i,j 3.双指针逼近k,l![](http://latex.codecogs.com/gif.latex?O(n^3)\,O(logn))| 注意去重|
 |19.删除链表的倒数第 N 个结点| 给你一个链表，删除链表的倒数第n个结点，并且返回链表的头结点|1.入栈法 2.双指针法 ![](http://latex.codecogs.com/gif.latex?O(1)\,O(1))||
+|146.LRU缓存|请你设计并实现一个满足LRU（最近最少使用）缓存约束的数据结构|双向链表+hash表，双向链表保持顺序，hash快速存取|双向链表可以用一个假的tail和head避免删除检查|
