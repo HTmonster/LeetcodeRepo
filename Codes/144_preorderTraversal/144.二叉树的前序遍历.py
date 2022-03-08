@@ -18,18 +18,18 @@ Date: 2022-02-16 19:55:34
 #         self.right = right
 class Solution:
     # 递归法
-    # def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-    #     result=[]
-    #     def dfs(node):
-    #         if not node: return       # 退出条件
-    #         nonlocal result
-    #         result.append(node.val)   # 1.保存根节点
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        result=[]
+        def dfs(node):
+            if not node: return       # 退出条件
+            nonlocal result
+            result.append(node.val)   # 1.保存根节点
 
-    #         dfs(node.left)            # 2.遍历左节点
-    #         dfs(node.right)           # 3.遍历右节点
+            dfs(node.left)            # 2.遍历左节点
+            dfs(node.right)           # 3.遍历右节点
 
-    #     dfs(root)
-    #     return result
+        dfs(root)
+        return result
 
     # 迭代法
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
