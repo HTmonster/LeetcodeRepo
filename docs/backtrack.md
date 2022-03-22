@@ -14,3 +14,7 @@ def backtrack(...):
         backtrack(...)
         撤销选择
 ```
+
+|算法|要点|备注|
+|-|-|-|
+| [46. 全排列](https://leetcode-cn.com/problems/permutations/)|如果数组中以及包含该数字则退出||
